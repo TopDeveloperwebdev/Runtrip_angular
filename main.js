@@ -823,7 +823,7 @@ var FilterComponent = /** @class */ (function () {
             _this.events = snapshot;
             _this.events.forEach(function (res) {
                 if ((res.a_lugar == filter_data.location || filter_data.location == '') &&
-                    (res.fecha == filter_data.date || filter_data.date == '') &&
+                    (res.fecha == filter_data.date || filter_data.date == 'undefined/undefined/') &&
                     (res.t_tipo == filter_data.event_type || filter_data.event_type == '')) {
                     var eventData = res;
                     eventData.marker = { url: './assets/img/icon/marker_' + res.t_pos + '.gif', scaledSize: { height: 40, width: 40 } };
