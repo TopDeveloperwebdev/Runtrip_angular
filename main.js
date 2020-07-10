@@ -826,7 +826,7 @@ var FilterComponent = /** @class */ (function () {
                     (res.fecha == filter_data.date || filter_data.date == '') &&
                     (res.t_tipo == filter_data.event_type || filter_data.event_type == '')) {
                     var eventData = res;
-                    eventData.marker = { url: '../../assets/img/icon/marker_' + res.t_pos + '.gif', scaledSize: { height: 40, width: 40 } };
+                    eventData.marker = { url: './assets/img/icon/marker_' + res.t_pos + '.gif', scaledSize: { height: 40, width: 40 } };
                     _this.eventDatas.push(eventData);
                 }
             });
@@ -1084,7 +1084,7 @@ var LandingComponent = /** @class */ (function () {
             _this.ads$ = res;
             _this.ads$.forEach(function (ad) {
                 _this.CrudService.getLocation(ad.ciudad, ad.desc).subscribe(function (res) {
-                    var markerObject = { lat: res.data[0].result_object.latitude, lng: res.data[0].result_object.longitude, marker: { url: '../../assets/img/icon/marker_0.gif', scaledSize: { height: 40, width: 40 } } };
+                    var markerObject = { lat: res.data[0].result_object.latitude, lng: res.data[0].result_object.longitude, marker: { url: './assets/img/icon/marker_0.gif', scaledSize: { height: 40, width: 40 } } };
                     _this.Ads_points.push(markerObject);
                 });
             });
