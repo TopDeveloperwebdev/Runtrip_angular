@@ -73,7 +73,7 @@ export class LandingComponent implements OnInit {
   constructor(private CrudService: CrudService, private Router: Router) {
     this.black_points_string.forEach(black_point => {
       this.CrudService.getLocation(black_point, '').subscribe(res => {
-        const markerObject = { lat: res.data[0].result_object.latitude, lng: res.data[0].result_object.longitude, marker: { url: '../../assets/img/icon/marker_2.gif', scaledSize: { height: 40, width: 40 } } };
+        const markerObject = { lat: res.data[0].result_object.latitude, lng: res.data[0].result_object.longitude, marker: { url: './assets/img/icon/marker_2.gif', scaledSize: { height: 40, width: 40 } } };
         this.Black_points.push(markerObject);
       });
     });
