@@ -1,0 +1,250 @@
+<main class="bg-clr">
+    <div class="position-relative">
+        <!-- shape Hero -->
+        <section class="section  pb-250">
+            <div class="shape shape-style-1 shape-default">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </section>
+        <!-- 1st Hero Variation -->
+    </div>
+    <section class="section pt-lg-0 mt--200">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 two-card-section">
+                    <div class="row row-grid detail-review">
+                        <div class="detail-img">
+                            <div class="first-img">
+
+                                <img src="{{selectedEvent.imgp}}" />
+                                <div class="title-detail">
+                                    <div class="title">{{selectedEvent.nombre}}<span>{{selectedEvent.pais}}</span></div>
+                                    <div class="name">Maratón Internacional de Buenos Aires Buenos AiresARGENTNA</div>
+                                    <div class="date">{{selectedEvent.fecha}}</div>
+                                    <div class="calendar-bar">
+                                        <div>DAYS
+                                            <div>46</div>
+                                        </div>
+                                        <div>DAYS
+                                            <div>46</div>
+                                        </div>
+                                        <div>DAYS
+                                            <div>46</div>
+                                        </div>
+                                        <div>DAYS
+                                            <div>46</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="second-img">
+
+                                <div class="img">
+                                    <ngb-carousel>
+                                        <ng-template ngbSlide *ngFor="let carousel of carousels">
+                                            <div class="picsum-img-wrapper">
+                                                <img src="{{carousel}}" alt="Angular Carousel 1">
+                                            </div>
+                                        </ng-template>
+                                    </ngb-carousel>
+                                </div>
+                                <div class="social-icons">
+                                    <a> <img src="./assets/img/icon/facebook.png" /></a>
+                                    <a> <img src="./assets/img/icon/twitter.png" /></a>
+                                    <a> <img src="./assets/img/icon/instagram.png" /></a>
+                                    <a> <img src="./assets/img/icon/zocial.png" /></a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail-text">
+                            <div class="top-text">
+                                <div>
+                                    <img src="./assets/img/icon/sun.png" />
+                                    <div>Aver. air temp
+                                        <div>12º /22º</div>
+                                    </div>
+                                </div>
+                                <div><img src="./assets/img/icon/flight.png" />
+                                    <div>EZE</div>
+                                </div>
+                            </div>
+                            <div class="bottom-text">{{selectedEvent.desc}}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 two-card-section">
+                    <div class="row row-grid buttons">
+                        <div>
+                            <img src="./assets/img/icon/RTx.png">
+                            <div>experiences</div>
+                        </div>
+                        <div>
+                            <img src="./assets/img/icon/sign-in.png">
+                            <div>sign in</div>
+                        </div>
+                        <div>
+                            <img src="./assets/img/icon/share.png">
+                            <div>experiences</div>
+                        </div>
+                        <div>
+                            <img src="./assets/img/icon/save.png">
+                            <div>experiences</div>
+                        </div>
+                    </div>
+                    <div class="mt-20 flex justify-content-center "> <img class="ml-auto mr-auto line" src="./assets/img/screen/line.png"></div>
+                </div>
+                <div class="col-lg-12 info-search-section">
+                    <div class="hotel-card col-lg-5">
+                        <div>Hotel Holiday inn, Buenos Aires Argentina
+                        </div>
+                        <div>
+                            <div>Check In<br>Sep. 26</div>
+                            <div>Check out<br>Sep. 26</div>
+                        </div>
+                        <div>
+                            <div>3 noches con desayuno
+                            </div>
+                            <div>u$ 427.-</div>
+                        </div>
+                    </div>
+                    <div class="flight-card col-lg-5">
+                        <div>
+                            <div>
+                                <div>from</div>
+                                <div>JFK</div>
+                                <div>Sep. 26</div>
+                            </div>
+                            <div>
+                                <div>to</div>
+                                <div>EZE</div>
+                                <div>Sep. 30</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>3 noches con desayuno
+                            </div>
+                            <div>u$ 427.-</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="youtube-section col-lg-12">
+                    <div class="col-lg-12 two-card-section">
+                        <div class="row row-grid buttons">
+                            <div>
+                                <img src="./assets/img/icon/tab-1.png">
+                                <div>12</div>
+                            </div>
+                            <div>
+                                <img src="./assets/img/icon/tab-2.png">
+                                <div>36</div>
+                            </div>
+                            <div>
+                                <img src="./assets/img/icon/tab-3.png">
+                                <div>0</div>
+                            </div>
+                            <div>
+                                <img src="./assets/img/icon/icon-green-1.png">
+                                <div>17</div>
+                            </div>
+                            <div>
+                                <img src="./assets/img/icon/tab-5.png">
+                                <div>21</div>
+                            </div>
+                            <div>
+                                <img src="./assets/img/icon/tab-6.png">
+                                <div>36</div>
+                            </div>
+                        </div>
+                        <div class="flex justify-content-center"> <img class="ml-auto mr-auto line" src="./assets/img/screen/line.png"></div>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe width="100%" height="730" [src]="displayURL">
+                        </iframe>
+                    </div>
+
+                </div>
+                <div class="col-lg-12 two-card-section">
+                    <div class="row row-grid">
+                        <div class="mt-20 "> <img class="main-img line" src="./assets/img/screen/line.png"></div>
+                        <div class=" mt-20 ">
+                            <div class="title">Las mejores</div>
+                            <div class="col-lg-12">
+                                <div class="row row-grid">
+                                    <div class="col-lg-3 main-card card-section">
+                                        <div> <img class="main-img" src="./assets/img/screen/relatived-img.png"></div>
+                                        <div>
+                                            <img src="./assets/img/icon/bed_breakfast.png" />
+                                            <div class="custom-card ">
+                                                <div>Medio maratón de Merlbourn</div>
+                                                <div class="country-title">GERMANY</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 main-card card-section">
+                                        <div> <img class="main-img" src="./assets/img/screen/relatived-img.png"></div>
+                                        <div>
+                                            <img src="./assets/img/icon/bed_breakfast.png" />
+                                            <div class="custom-card ">
+                                                <div>Medio maratón de Merlbourn</div>
+                                                <div class="country-title">GERMANY</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 main-card card-section">
+                                        <div> <img class="main-img" src="./assets/img/screen/relatived-img.png"></div>
+                                        <div>
+                                            <img src="./assets/img/icon/bed_breakfast.png" />
+                                            <div class="custom-card ">
+                                                <div>Medio maratón de Merlbourn</div>
+                                                <div class="country-title">GERMANY</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 main-card card-section">
+                                        <div> <img class="main-img" src="./assets/img/screen/relatived-img.png"></div>
+                                        <div>
+                                            <img src="./assets/img/icon/bed_breakfast.png" />
+                                            <div class="custom-card ">
+                                                <div>Medio maratón de Merlbourn</div>
+                                                <div class="country-title">GERMANY</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 two-card-section">
+                    <div class="small-title">MORE LIKE THIS ...</div>
+                    <div class="row row-grid">
+                        <div class=" mt-20 two-card">
+                            <div class="col-lg-6 main-card">
+                                <div> <img class="main-img" src="./assets/img/screen/bottom-img-1.png"></div>
+                            </div>
+                            <div class="col-lg-6 main-card">
+                                <div> <img class="main-img" src="./assets/img/screen/bottom-img-2.png"></div>
+                            </div>
+                        </div>
+                        <div class=" mt-20 "> <img class="main-img line" src="./assets/img/screen/line.png"></div>
+                    </div>
+                </div>
+                <div class="col-lg-12 two-card-section">
+                    <img class="main-img" src="./assets/img/screen/p3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

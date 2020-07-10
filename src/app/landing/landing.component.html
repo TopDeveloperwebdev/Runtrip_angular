@@ -1,0 +1,257 @@
+<main class="bg-clr">
+    <div class="position-relative">
+        <!-- shape Hero -->
+        <section class="section  pb-250">
+            <div class="shape shape-style-1 shape-default">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </section>
+        <!-- 1st Hero Variation -->
+    </div>
+    <section class="section pt-lg-0 mt--200">
+
+        <div class="container">
+            <div class="row">
+                <div class="title">Tu próxima</div>
+                <div class="col-lg-12">
+                    <div class="row row-grid">
+
+                        <div class="col-lg-3 main-card" *ngFor="let ad of ads$">
+                            <div class="img-section"> <img class="main-img" src="{{ad.img}}"></div>
+                            <div class="custom-card">
+                                <div>{{ad.desc}}</div>
+                                <div class="country-title"> {{ad.ciudad}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 icons-section">
+                    <div class="row row-grid">
+                        <div class="col-lg-3 main-card">
+                            <div> <img class="main-img" src="./assets/img/icon/icon-1.png"></div>
+                            <div class="custom-card ">
+                                <div><img src="./assets/img/icon/black-icon-1.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-2.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-3.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-4.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-5.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-6.png" /> 00</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div> <img class="main-img" src="./assets/img/icon/icon-1.png"></div>
+                            <div class="custom-card ">
+                                <div><img src="./assets/img/icon/black-icon-1.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-2.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-3.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-4.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-5.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-6.png" /> 00</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div> <img class="main-img" src="./assets/img/icon/icon-1.png"></div>
+                            <div class="custom-card ">
+                                <div><img src="./assets/img/icon/black-icon-1.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-2.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-3.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-4.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-5.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-6.png" /> 00</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div> <img class="main-img" src="./assets/img/icon/icon-1.png"></div>
+                            <div class="custom-card ">
+                                <div><img src="./assets/img/icon/black-icon-1.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-2.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-3.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-4.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-5.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-6.png" /> 00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 map-section">
+                    <agm-map [zoom]="zoom" [disableDefaultUI]="true" [scrollwheel]="false" [styles]="darkstyle">
+                        <agm-marker [iconUrl]="Ads_point.marker" [latitude]="Ads_point.lat" [longitude]="Ads_point.lng" *ngFor="let Ads_point of Ads_points"></agm-marker>
+                        <agm-marker [iconUrl]="Black_point.marker" [latitude]="Black_point.lat" [longitude]="Black_point.lng" *ngFor="let Black_point of Black_points"></agm-marker>
+                    </agm-map>
+                </div>
+                <div class="title">RTx</div>
+
+                <div class="col-lg-12 icons-section bottim-section">
+                    <div class="row row-grid">
+                        <div class="col-lg-3 main-card">
+                            <div class="img-card"> <img class="main-img" src="./assets/img/icon/icon-3.png"></div>
+                            <div class="custom-card ">
+                                <div><img src="./assets/img/icon/black-icon-1.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-2.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-3.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-4.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-5.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-6.png" /> 00</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div class="img-card"> <img class="main-img" src="./assets/img/icon/icon-3.png"></div>
+                            <div class="custom-card ">
+                                <div><img src="./assets/img/icon/black-icon-1.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-2.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-3.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-4.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-5.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-6.png" /> 00</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div class="img-card"> <img class="main-img" src="./assets/img/icon/icon-3.png"></div>
+                            <div class="custom-card ">
+                                <div><img src="./assets/img/icon/black-icon-1.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-2.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-3.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-4.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-5.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-6.png" /> 00</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div class="img-card"> <img class="main-img" src="./assets/img/icon/icon-3.png"></div>
+                            <div class="custom-card ">
+                                <div><img src="./assets/img/icon/black-icon-1.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-2.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-3.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-4.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-5.png" /> 00</div>
+                                <div><img src="./assets/img/icon/black-icon-6.png" /> 00</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12 bottim-img-section">
+                    <div class="row row-grid">
+                        <div class="col-lg-3 main-card">
+                            <div class="custom-card ">
+                                <div>Medio maratón de Merlbourn</div>
+                                <div class="country-title">GERMANY</div>
+                            </div>
+                            <div> <img class="main-img" src="./assets/img/screen/bottom-image-1.png"></div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div class="custom-card ">
+                                <div>Medio maratón de Merlbourn</div>
+                                <div class="country-title">GERMANY</div>
+                            </div>
+                            <div> <img class="main-img" src="./assets/img/screen/bottom-image-2.png"></div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div class="custom-card ">
+                                <div>Medio maratón de Merlbourn</div>
+                                <div class="country-title">GERMANY</div>
+                            </div>
+                            <div> <img class="main-img" src="./assets/img/screen/bottom-image-3.png"></div>
+                        </div>
+                        <div class="col-lg-3 main-card">
+                            <div class="custom-card ">
+                                <div>Medio maratón de Merlbourn</div>
+                                <div class="country-title">GERMANY</div>
+                            </div>
+                            <div> <img class="main-img" src="./assets/img/screen/bottom-image-4.png"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-12 two-card-section">
+                    <div class="row row-grid">
+                        <div class="mt-20"> <img class="main-img" src="./assets/img/screen/line.png"></div>
+                        <div class=" mt-20 two-card">
+                            <div class="col-lg-6 main-card">
+                                <div> <img class="main-img" src="./assets/img/screen/bottom-img-1.png"></div>
+                            </div>
+                            <div class="col-lg-6 main-card">
+                                <div> <img class="main-img" src="./assets/img/screen/bottom-img-2.png"></div>
+                            </div>
+                        </div>
+                        <div class=" mt-20"> <img class="main-img" src="./assets/img/screen/line.png"></div>
+                    </div>
+                </div>
+                <div class="col-lg-12 two-card-section">
+                    <div class="search-section">
+                        <input placeholder="NOMBRE / LOCACION" [(ngModel)]='filter_data.location' />
+                        <input placeholder="FECHA" date="dd/mm/yyyy" [(ngModel)]='filter_data.date' type="date" />
+                        <select [(ngModel)]='event_type'>                          
+                            <option *ngFor="let type of types">{{type}}</option>
+                        </select>
+
+                        <a class="search-btn" (click)='filter(event_type)'></a>
+                    </div>
+                    <div class="search-result-section col-lg-12">
+                        <div class="col-lg-3" *ngFor="let type of types ; let indexOfelement=index;">
+                            <div class="main-card" [class]="indexOfelement == 0 ? 'red' : '' || indexOfelement == 6 ? 'green' : '' " (click)='filter(type)'>
+                                <img src="./assets/img/icon/ads-{{indexOfelement + 1}}.png" />
+                            </div>
+                            <p>{{type}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 two-card-section">
+                    <div class="row row-grid">
+                        <div class="mt-20"> <img class="main-img" src="./assets/img/screen/line.png"></div>
+                        <div class=" mt-20 ">
+                            <div class="title">Las mejores</div>
+                            <div class="col-lg-12">
+                                <div class="row row-grid">
+                                    <div class="col-lg-3 main-card">
+                                        <div> <img class="main-img" src="./assets/img/screen/top-image-1.png"></div>
+                                        <div class="custom-card ">
+                                            <div>Medio maratón de Merlbourn</div>
+                                            <div class="country-title">GERMANY</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 main-card">
+                                        <div> <img class="main-img" src="./assets/img/screen/top-image-2.png"></div>
+                                        <div class="custom-card ">
+                                            <div>Medio maratón de Merlbourn</div>
+                                            <div class="country-title">GERMANY</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 main-card">
+                                        <div> <img class="main-img" src="./assets/img/screen/top-image-1.png"></div>
+                                        <div class="custom-card ">
+                                            <div>Medio maratón de Merlbourn</div>
+                                            <div class="country-title">GERMANY</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 main-card">
+                                        <div> <img class="main-img" src="./assets/img/screen/top-image-2.png"></div>
+                                        <div class="custom-card ">
+                                            <div>Medio maratón de Merlbourn</div>
+                                            <div class="country-title">GERMANY</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-20"> <img class="main-img" src="./assets/img/screen/line.png"></div>
+                    </div>
+                </div>
+                <div class="col-lg-12 two-card-section">
+                    <img class="main-img" src="./assets/img/screen/p3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
