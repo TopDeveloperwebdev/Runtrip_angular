@@ -2217,7 +2217,7 @@ var CrudService = /** @class */ (function () {
     CrudService.prototype.getLocation = function (city, desc) {
         var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]()
             .set('x-rapidapi-host', 'tripadvisor1.p.rapidapi.com')
-            .set('x-rapidapi-key', '2b6b3c87bemshb947ceeb3e12065p122c54jsna08aa76c11f8')
+            .set('x-rapidapi-key', '556ab8d15bmshd3ca897d4be4d31p118d5bjsnb2bfb2d21489')
             .set('useQueryString', 'true');
         return this.httpClient.get(_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].AUTH_SERVER_ADDRESS + "/locations/search?location_id=1&limit=1&sort=relevance&offset=0&lang=spa&currency=USD&units=km&query=" + city + " + " + desc, { headers: headers, });
     };
