@@ -16,33 +16,18 @@
 }
 
 @font-face {
-    font-family: 'SourceSansPro-ExtraLight';
-    src: url('../fonts/SourceSansPro-ExtraLight.ttf');
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf');
 }
 
 @font-face {
-    font-family: 'SourceSansPro-Regular';
-    src: url('../fonts/SourceSansPro-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'SourceSansPro-SemiBold';
-    src: url('../fonts/SourceSansPro-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: 'WoodfordBournePRO-Regular';
-    src: url('../fonts/WoodfordBournePRO-Regular.otf');
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
 }
 
 @font-face {
     font-family: 'Roboto-Thin';
     src: url('../fonts/Roboto-Thin.ttf');
-}
-
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
@@ -56,8 +41,8 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../fonts/Roboto-Bold.ttf');
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
 .fa {
