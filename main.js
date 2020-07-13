@@ -91,6 +91,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rtx/rtx.component.html":
+/*!******************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rtx/rtx.component.html ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<main class=\"bg-clr\">\n    <div class=\"position-relative\">\n        <!-- shape Hero -->\n        <section class=\"section  pb-250\">\n            <div class=\"shape shape-style-1 shape-default\">\n\n            </div>\n\n        </section>\n        <!-- 1st Hero Variation -->\n    </div>\n    <section class=\"section pt-lg-0 mt--200\">\n\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"title\">NUEVO EVENTO</div>\n                <div class=\"col-lg-12 category_checkboxs\">\n                    <div class=\"field\">\n                        <img src=\"./assets/img/icon/ads-2.png\" />\n                        <input type=\"checkbox\" />\n                    </div>\n                    <div class=\"field\">\n                        <img src=\"./assets/img/icon/ads-3.png\" />\n                        <input type=\"checkbox\" />\n                    </div>\n                    <div class=\"field\">\n                        <img src=\"./assets/img/icon/ads-4.png\" />\n                        <input type=\"checkbox\" />\n                    </div>\n                    <div class=\"field\">\n                        <img src=\"./assets/img/icon/ads-8.png\" />\n                        <input type=\"checkbox\" />\n                    </div>\n                    <div class=\"field\">\n                        <img src=\"./assets/img/icon/ads-6.png\" />\n                        <input type=\"checkbox\" />\n                    </div>\n\n                </div>\n                <div class=\"col-lg-12 form-section\">\n                    <div class=\"field\">\n                        <input placeholder=\"Nombre del evento*\" />\n                        <div></div>\n                    </div>\n\n                    <div class=\"field\">\n                        <input placeholder=\"Nombre del evento*\" />\n                        <div></div>\n                    </div>\n                    <div class=\"field\">\n                        <input placeholder=\"Nombre del evento*\" type=\"date\" />\n                        <div></div>\n                    </div>\n                    <div class=\"field\">\n                        <input placeholder=\"Nombre del evento*\" />\n                        <div></div>\n                    </div>\n                    <div class=\"field\">\n                        <input placeholder=\"Nombre del evento*\" />\n                        <div></div>\n                    </div>\n                    <div class=\"field\">\n                        <input placeholder=\"Nombre del evento*\" />\n                        <div></div>\n                    </div>\n\n\n                </div>\n\n                <div class=\"col-lg-12 textarea-section\">\n                    <div class=\"title\">Descripción del evento</div>\n                    <textarea id=\"w3review\" name=\"w3review\" rows=\"4\" cols=\"50\">\n                        At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.\n                        </textarea>\n\n                </div>\n            </div>\n        </div>\n    </section>\n</main>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/sections/alerts-section/alerts-section.component.html":
 /*!*************************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sections/alerts-section/alerts-section.component.html ***!
@@ -485,6 +498,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angularfire2_database__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(angularfire2_database__WEBPACK_IMPORTED_MODULE_19__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm5/http.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm5/common.js");
+/* harmony import */ var _rtx_rtx_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./rtx/rtx.component */ "./src/app/rtx/rtx.component.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm5/animations.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -494,6 +509,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+
+
+
 
 
 
@@ -530,7 +548,8 @@ var AppModule = /** @class */ (function () {
                 _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"],
                 _login_login_component__WEBPACK_IMPORTED_MODULE_14__["LoginComponent"],
                 _filter_filter_component__WEBPACK_IMPORTED_MODULE_10__["FilterComponent"],
-                _event_event_component__WEBPACK_IMPORTED_MODULE_16__["EventComponent"]
+                _event_event_component__WEBPACK_IMPORTED_MODULE_16__["EventComponent"],
+                _rtx_rtx_component__WEBPACK_IMPORTED_MODULE_22__["RtxComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -544,7 +563,9 @@ var AppModule = /** @class */ (function () {
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_20__["HttpClientModule"],
                 _agm_core__WEBPACK_IMPORTED_MODULE_15__["AgmCoreModule"].forRoot({
                     apiKey: 'AIzaSyCQWHuSnG3ex0UWYqaCLT-EmE5tylCqr_Q'
-                })
+                }),
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_23__["BrowserAnimationsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"]
             ],
             providers: [_landing_landing_component__WEBPACK_IMPORTED_MODULE_8__["LandingComponent"], _filter_filter_component__WEBPACK_IMPORTED_MODULE_10__["FilterComponent"],
                 { provide: _angular_common__WEBPACK_IMPORTED_MODULE_21__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_21__["PathLocationStrategy"] }
@@ -580,6 +601,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _filter_filter_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./filter/filter.component */ "./src/app/filter/filter.component.ts");
 /* harmony import */ var _event_event_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./event/event.component */ "./src/app/event/event.component.ts");
+/* harmony import */ var _rtx_rtx_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./rtx/rtx.component */ "./src/app/rtx/rtx.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -600,12 +622,14 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
 
 
 
+
 var routes = [
     { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"] },
     { path: 'user-profile', component: _profile_profile_component__WEBPACK_IMPORTED_MODULE_5__["ProfileComponent"] },
     { path: 'register', component: _signup_signup_component__WEBPACK_IMPORTED_MODULE_6__["SignupComponent"] },
     { path: 'landing', component: _landing_landing_component__WEBPACK_IMPORTED_MODULE_7__["LandingComponent"] },
     { path: 'login', component: _login_login_component__WEBPACK_IMPORTED_MODULE_8__["LoginComponent"] },
+    { path: 'rtx', component: _rtx_rtx_component__WEBPACK_IMPORTED_MODULE_11__["RtxComponent"] },
     { path: 'filter', component: _filter_filter_component__WEBPACK_IMPORTED_MODULE_9__["FilterComponent"] },
     { path: 'event', component: _event_event_component__WEBPACK_IMPORTED_MODULE_10__["EventComponent"] },
     { path: '', redirectTo: 'landing', pathMatch: 'full' }
@@ -1257,6 +1281,63 @@ var ProfileComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], ProfileComponent);
     return ProfileComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/rtx/rtx.component.scss":
+/*!****************************************!*\
+  !*** ./src/app/rtx/rtx.component.scss ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".bg-clr {\n  background-color: #FF776B;\n}\n\n.title {\n  margin: 80px 0px;\n  font-size: 40px;\n  font-family: \"Roboto-Bold\";\n  color: #210132;\n}\n\ntextarea:focus,\ninput:focus {\n  outline: none !important;\n}\n\n.category_checkboxs {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n\n.category_checkboxs .field {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  width: 116px;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n          align-items: center;\n  height: 150px;\n}\n\n.category_checkboxs .field input {\n  width: 35px;\n  height: 35px;\n}\n\n.category_checkboxs .field img {\n  height: 79px;\n}\n\n.form-section {\n  display: -webkit-box;\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.form-section .field {\n  width: 46%;\n  margin: 30px 0px;\n  margin-left: 4%;\n}\n\n.form-section .field input {\n  width: 100%;\n  height: 45px;\n  background: none;\n  border: none;\n  font-size: 22px;\n  color: #444343;\n}\n\n.form-section .field input::-webkit-input-placeholder {\n  color: #444343;\n}\n\n.form-section .field input::-moz-placeholder {\n  color: #444343;\n}\n\n.form-section .field input::-ms-input-placeholder {\n  color: #444343;\n}\n\n.form-section .field input::placeholder {\n  color: #444343;\n}\n\n.form-section .field div {\n  width: 100%;\n  height: 1px;\n  background-color: white;\n  box-shadow: 1px 0px 13px 4px #00000017;\n}\n\n.textarea-section .title {\n  margin: 50px 0px;\n  font-family: \"Roboto-Bold\";\n  color: #210132;\n  font-size: 30px;\n}\n\n.textarea-section textarea {\n  width: 100%;\n  height: 237px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcnR4L0c6XFxOb3dQcm9qZWN0c1xcQW5ndWxhcl93b3JrYW5hXzdfMVxccHJvamVjdFxcUHJvamVjdC9zcmNcXGFwcFxccnR4XFxydHguY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3J0eC9ydHguY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5QkFBQTtBQ0NKOztBREVBO0VBQ0ksZ0JBQUE7RUFDQSxlQUFBO0VBQ0EsMEJBQUE7RUFDQSxjQUFBO0FDQ0o7O0FERUE7O0VBRUksd0JBQUE7QUNDSjs7QURFQTtFQUNJLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHlCQUFBO1VBQUEsOEJBQUE7QUNDSjs7QURBSTtFQUNJLG9CQUFBO0VBQUEsYUFBQTtFQUNBLDRCQUFBO0VBQUEsNkJBQUE7VUFBQSxzQkFBQTtFQUNBLFlBQUE7RUFDQSx5QkFBQTtVQUFBLDhCQUFBO0VBQ0EseUJBQUE7VUFBQSxtQkFBQTtFQUNBLGFBQUE7QUNFUjs7QUREUTtFQUNJLFdBQUE7RUFDQSxZQUFBO0FDR1o7O0FERFE7RUFDSSxZQUFBO0FDR1o7O0FERUE7RUFDSSxvQkFBQTtFQUFBLGFBQUE7RUFDQSxlQUFBO0FDQ0o7O0FEQUk7RUFDSSxVQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0FDRVI7O0FERFE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0FDR1o7O0FERFE7RUFDSSxjQUFBO0FDR1o7O0FESlE7RUFDSSxjQUFBO0FDR1o7O0FESlE7RUFDSSxjQUFBO0FDR1o7O0FESlE7RUFDSSxjQUFBO0FDR1o7O0FERFE7RUFDSSxXQUFBO0VBQ0EsV0FBQTtFQUNBLHVCQUFBO0VBQ0Esc0NBQUE7QUNHWjs7QURHSTtFQUNJLGdCQUFBO0VBQ0EsMEJBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtBQ0FSOztBREVJO0VBQ0ksV0FBQTtFQUNBLGFBQUE7QUNBUiIsImZpbGUiOiJzcmMvYXBwL3J0eC9ydHguY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYmctY2xyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRjc3NkI7XHJcbn1cclxuXHJcbi50aXRsZSB7XHJcbiAgICBtYXJnaW46IDgwcHggMHB4O1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udC1mYW1pbHk6IFwiUm9ib3RvLUJvbGRcIjtcclxuICAgIGNvbG9yOiAjMjEwMTMyO1xyXG59XHJcblxyXG50ZXh0YXJlYTpmb2N1cyxcclxuaW5wdXQ6Zm9jdXMge1xyXG4gICAgb3V0bGluZTogbm9uZSAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uY2F0ZWdvcnlfY2hlY2tib3hzIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICAuZmllbGQge1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgICAgICB3aWR0aDogMTE2cHg7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgaGVpZ2h0OiAxNTBweDtcclxuICAgICAgICBpbnB1dCB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAzNXB4O1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDM1cHg7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIGltZyB7XHJcbiAgICAgICAgICAgIGhlaWdodDogNzlweDtcclxuICAgICAgICB9XHJcbiAgICB9XHJcbn1cclxuXHJcbi5mb3JtLXNlY3Rpb24ge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICAgIC5maWVsZCB7XHJcbiAgICAgICAgd2lkdGg6IDQ2JTtcclxuICAgICAgICBtYXJnaW46IDMwcHggMHB4O1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiA0JTtcclxuICAgICAgICBpbnB1dCB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDQ1cHg7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IG5vbmU7XHJcbiAgICAgICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICAgICAgZm9udC1zaXplOiAyMnB4O1xyXG4gICAgICAgICAgICBjb2xvcjogIzQ0NDM0MztcclxuICAgICAgICB9XHJcbiAgICAgICAgaW5wdXQ6OnBsYWNlaG9sZGVyIHtcclxuICAgICAgICAgICAgY29sb3I6ICM0NDQzNDM7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIGRpdiB7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDFweDtcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICAgICAgICAgIGJveC1zaGFkb3c6IDFweCAwcHggMTNweCA0cHggIzAwMDAwMDE3O1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufVxyXG5cclxuLnRleHRhcmVhLXNlY3Rpb24ge1xyXG4gICAgLnRpdGxlIHtcclxuICAgICAgICBtYXJnaW46IDUwcHggMHB4O1xyXG4gICAgICAgIGZvbnQtZmFtaWx5OiBcIlJvYm90by1Cb2xkXCI7XHJcbiAgICAgICAgY29sb3I6ICMyMTAxMzI7XHJcbiAgICAgICAgZm9udC1zaXplOiAzMHB4O1xyXG4gICAgfVxyXG4gICAgdGV4dGFyZWEge1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIGhlaWdodDogMjM3cHg7XHJcbiAgICB9XHJcbn0iLCIuYmctY2xyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI0ZGNzc2Qjtcbn1cblxuLnRpdGxlIHtcbiAgbWFyZ2luOiA4MHB4IDBweDtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250LWZhbWlseTogXCJSb2JvdG8tQm9sZFwiO1xuICBjb2xvcjogIzIxMDEzMjtcbn1cblxudGV4dGFyZWE6Zm9jdXMsXG5pbnB1dDpmb2N1cyB7XG4gIG91dGxpbmU6IG5vbmUgIWltcG9ydGFudDtcbn1cblxuLmNhdGVnb3J5X2NoZWNrYm94cyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2Vlbjtcbn1cbi5jYXRlZ29yeV9jaGVja2JveHMgLmZpZWxkIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgd2lkdGg6IDExNnB4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGhlaWdodDogMTUwcHg7XG59XG4uY2F0ZWdvcnlfY2hlY2tib3hzIC5maWVsZCBpbnB1dCB7XG4gIHdpZHRoOiAzNXB4O1xuICBoZWlnaHQ6IDM1cHg7XG59XG4uY2F0ZWdvcnlfY2hlY2tib3hzIC5maWVsZCBpbWcge1xuICBoZWlnaHQ6IDc5cHg7XG59XG5cbi5mb3JtLXNlY3Rpb24ge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LXdyYXA6IHdyYXA7XG59XG4uZm9ybS1zZWN0aW9uIC5maWVsZCB7XG4gIHdpZHRoOiA0NiU7XG4gIG1hcmdpbjogMzBweCAwcHg7XG4gIG1hcmdpbi1sZWZ0OiA0JTtcbn1cbi5mb3JtLXNlY3Rpb24gLmZpZWxkIGlucHV0IHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogNDVweDtcbiAgYmFja2dyb3VuZDogbm9uZTtcbiAgYm9yZGVyOiBub25lO1xuICBmb250LXNpemU6IDIycHg7XG4gIGNvbG9yOiAjNDQ0MzQzO1xufVxuLmZvcm0tc2VjdGlvbiAuZmllbGQgaW5wdXQ6OnBsYWNlaG9sZGVyIHtcbiAgY29sb3I6ICM0NDQzNDM7XG59XG4uZm9ybS1zZWN0aW9uIC5maWVsZCBkaXYge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxcHg7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICBib3gtc2hhZG93OiAxcHggMHB4IDEzcHggNHB4ICMwMDAwMDAxNztcbn1cblxuLnRleHRhcmVhLXNlY3Rpb24gLnRpdGxlIHtcbiAgbWFyZ2luOiA1MHB4IDBweDtcbiAgZm9udC1mYW1pbHk6IFwiUm9ib3RvLUJvbGRcIjtcbiAgY29sb3I6ICMyMTAxMzI7XG4gIGZvbnQtc2l6ZTogMzBweDtcbn1cbi50ZXh0YXJlYS1zZWN0aW9uIHRleHRhcmVhIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMjM3cHg7XG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/rtx/rtx.component.ts":
+/*!**************************************!*\
+  !*** ./src/app/rtx/rtx.component.ts ***!
+  \**************************************/
+/*! exports provided: RtxComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RtxComponent", function() { return RtxComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var RtxComponent = /** @class */ (function () {
+    function RtxComponent() {
+    }
+    RtxComponent.prototype.ngOnInit = function () {
+    };
+    RtxComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-rtx',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./rtx.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rtx/rtx.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./rtx.component.scss */ "./src/app/rtx/rtx.component.scss")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], RtxComponent);
+    return RtxComponent;
 }());
 
 
@@ -2251,7 +2332,7 @@ var CrudService = /** @class */ (function () {
     CrudService.prototype.getLocation = function (city, desc) {
         var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]()
             .set('x-rapidapi-host', 'tripadvisor1.p.rapidapi.com')
-            .set('x-rapidapi-key', '556ab8d15bmshd3ca897d4be4d31p118d5bjsnb2bfb2d21489')
+            .set('x-rapidapi-key', 'fdc4e375d3mshf8c9f522b6eadf8p1be48cjsn0df9d140b19c')
             .set('useQueryString', 'true');
         return this.httpClient.get(_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].AUTH_SERVER_ADDRESS + "/locations/search?location_id=1&limit=1&sort=relevance&offset=0&lang=spa&currency=USD&units=km&query=" + city + " + " + desc, { headers: headers, });
     };
