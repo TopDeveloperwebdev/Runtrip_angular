@@ -681,7 +681,7 @@ var routes = [
     { path: 'experience', component: _experience_experience_component__WEBPACK_IMPORTED_MODULE_12__["ExperienceComponent"] },
     { path: 'filter', component: _filter_filter_component__WEBPACK_IMPORTED_MODULE_9__["FilterComponent"] },
     { path: 'event', component: _event_event_component__WEBPACK_IMPORTED_MODULE_10__["EventComponent"] },
-    { path: '', redirectTo: 'login', pathMatch: 'full' }
+    { path: '', redirectTo: 'landing', pathMatch: 'full' }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
