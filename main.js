@@ -1345,9 +1345,9 @@ var LandingComponent = /** @class */ (function () {
     }
     LandingComponent.prototype.ngOnInit = function () {
         var self = this;
-        self.ads = [];
         self.CrudService.getProducts().subscribe(function (res) {
             self.home_images = res[2];
+            self.ads = [];
             Object.keys(res[0]).forEach(function (rkey) {
                 self.ads.push(res[0][rkey]);
             });
